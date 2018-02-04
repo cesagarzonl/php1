@@ -1,0 +1,66 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+}
+.ng-valid{
+	border: thin solid #090;
+}
+.ng-invalid{
+	border: thin solid #990000;
+}
+#principal{
+	display: flex;
+	position:relative;
+	width: 100%;
+	text-align: center;
+
+}
+
+#form{
+width: 49%;
+border:  none;
+height: auto;
+}
+#form > form > p{
+	padding: 3px;
+	margin: 1px;
+}
+
+
+
+#encabezado{
+	padding: 10px;
+	margin: 10px;
+	width: 100%;
+	text-align: center;
+	text-decoration: none;
+
+}
+#encabezado >a {
+	text-decoration: none;
+	color: #000;
+}
+#encabezado >  form{
+	padding: 10px;
+	margin: 10px;
+	width: 100%;
+	text-align: center;
+	text-decoration: none;	
+}
+#conf{
+width: 100%;
+border:  none;
+height: auto;
+text-align: center;
+}
+#conf > p{
+position: relative;
+display: inline;
+}
+#enviofor{
+	width: 80%;
+}
+table{
+	text-align: center;
+}
